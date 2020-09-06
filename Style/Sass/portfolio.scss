@@ -65,6 +65,12 @@ a:hover {
   color: green;
 }
 
+/* change the color of active or hovered links for the .nav-invisible links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-invisible {
+  color: white;
+}
+
 .custom-toggler.navbar-toggler {
   border-color: white;
 }
@@ -115,6 +121,12 @@ a:hover {
     padding: 5rem;
   }
 
+  .project-one-warning {
+    text-align: center;
+    color: #F3A823;
+    font-weight: bold;
+  }
+
   .project-one-description {
     text-align: justify;
   }
@@ -125,11 +137,21 @@ a:hover {
     font-weight: bold;
   }
 
+  .project-one-warning-list {
+    text-align: left;
+    color: #F3A823;
+    font-weight: bold;
+  }
+
   .project-one-bullets {
     text-align: left;
   }
 
   .profile-links {
+
+    .profile-link-middle {
+      text-align: center;
+    }
 
     .profile-link-left{
       text-align: right;
