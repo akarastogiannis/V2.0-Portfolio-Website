@@ -13,7 +13,7 @@ html, body{
 body {
  padding-top: 55px; /*50px for the height of the navbar + 37px for the offset*/
  padding-bottom: 50px; /*50px for the height of the bottom navbar*/
- 
+
  background-image: url("../../Assets/Images/backgrounds-img5.png");
  background-size: 100% 100%;
  background-repeat: no-repeat;
@@ -109,9 +109,42 @@ a:hover {
   }
 
   .profile-right-box {
-    background-color: #00FFFFFF;
-    opacity: 0%;
+    background-color: #C1D81C;
   }
+
+  .contact-form-title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5rem;
+    color: #0F1503;
+    font-family: 'Bungee Shade', 'cursive';
+  }
+
+  .contact-form-link-box {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+    padding-top: 1rem;
+  }
+
+  .contact-form-links {
+    color: #0F1503;
+    font-family: 'Bungee Shade', 'cursive';
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+
+  .contact-form-icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact-form-icon-email {
+    width: 30px;
+    height: 20px;
+  }
+
   .profile-text {
     background-color: #EAF3E4;
     text-align: center;
